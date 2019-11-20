@@ -55,6 +55,7 @@ mvn assembly:single
 java -cp target/spark-challenge-1.0.0-jar-with-dependencies.jar edu.nwmissouri.bhethalam.App "input.txt"
 ```
 
+## Import following packages into App.java file
 
 ```Java
 import org.apache.spark.SparkConf;
